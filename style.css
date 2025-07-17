@@ -1,0 +1,102 @@
+
+body{
+
+}
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+ .subleft-container{
+
+ }
+ .login{
+    border: solid 1px black;
+    border-radius: 5px;
+    width: 350px;
+    height: 500px;
+    padding: 10px;
+
+ }
+ .logo-login-img{
+    width: 35px;
+    height: 35px;
+ }
+ .dell-login-logo{
+    color: rgb(6, 6, 255);
+
+    font-size: x-large;
+    margin-top: 3px;
+
+ }
+ .text-login{
+    display:flex;
+    justify-content: center;
+    
+ }
+ .discrition{
+     display:flex;
+    justify-content: center;
+ }
+ 
+
+ .top-login{
+   
+ }
+ .logo-design{
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+ }
+ .input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .container-input-email{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ }
+ .input-email{
+    width: 350px;
+    height: 30px;
+    border: solid 1px black;
+    border-radius: 5px;
+ }
+ .container-input-passward{
+    display: flex;
+ flex-direction: column;
+ gap: 10px;
+ }
+ .input-passward {
+    width: 350px;
+    height: 30px;
+    border: solid 1px black;
+    border-radius: 5px;
+ }
+ .checkbox-forgotpassward{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+
+ .checkbox{
+    display: flex;
+    
+
+ }
+ .submit{
+    width: 350px;
+    height: 30px;
+    background-color: #2563EB;
+    border: none;
+    border-radius: 5px;
+    color: white;
+ }
+ .submit:hover{
+    background-color: #4e70b9
+ }
+ .Forgot-Passward{
+
+ }
