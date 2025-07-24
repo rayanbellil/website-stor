@@ -24,6 +24,11 @@ nav {
    background-color: white;
 
 }
+
+section {
+   margin-bottom: 100px;
+}
+
 .nav-link {
    list-style: none;
    display: flex;
@@ -112,3 +117,134 @@ position: absolute;
    color: rgba(0, 0, 0, 0.863);
    transition: 0.5s;
 }
+.container-product{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 30px;
+  
+}
+.product1{
+   width: 250px;
+   height: auto;
+ box-shadow: 0px 2px 5px rgb(88, 88, 88);
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+}
+.product1:hover{
+    background-color:rgba(0, 0, 0, 0.053);
+   transition: 0.5s;
+}
+
+.product2{
+ width: 250px;
+   height: auto;
+  box-shadow: 0px 2px 5px rgb(88, 88, 88);
+   border-radius: 5px;
+    display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.product2:hover{
+    background-color:rgba(0, 0, 0, 0.053);
+   transition: 0.5s;
+}
+.product3{
+ width: 250px;
+   height: auto;
+ box-shadow: 0px 2px 5px rgb(88, 88, 88);
+   border-radius: 5px;
+    display: flex;
+     flex-direction: column;
+     padding: 10px;
+}
+.product3:hover{
+   background-color:rgba(0, 0, 0, 0.053);
+   transition: 0.5s;
+}
+.product4{
+ width: 250px;
+   height: auto;
+ box-shadow: 0px 2px 5px rgb(88, 88, 88);
+   border-radius: 5px;
+    display: flex;
+   flex-direction: column;
+  padding: 10px;
+}
+.product4:hover{
+  background-color:rgba(0, 0, 0, 0.053);
+   transition: 0.5s;
+}
+.laptop1{
+   width: 250px;
+   height: 200px;
+}
+.laptop2{
+ width: 250px;
+   height: 200px;
+  
+}
+.laptop3{
+  width: 250px;
+   height: 200px;
+}
+.laptop4{
+ width: 250px;
+   height: 200px;
+}
+
+.product{
+   background-color: white;
+   margin-top: 350px;
+}
+.line{
+   height: 0px;
+   width: 200px;
+   border: solid 1px  rgba(0, 0, 0, 0.336);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+}
+.informtion-pc{
+   display: flex;
+   flex-direction: column;
+}
+.informtion-pc p {
+  margin: 1px;
+  padding: 2px 0;
+}
+.informtion-pc ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.informtion-pc li {
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+.button-add{
+    width: 250px;
+   height: 40px;
+   border: none;
+   border-radius: 5px;
+   background-color: red;
+   color: white;
+
+}
+.button-add:hover{
+ background-color: #b72525a1;
+   color: rgba(0, 0, 0, 0.863);
+   transition: 0.5s;  
+}
+#centre-line-name{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+
