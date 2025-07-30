@@ -78,8 +78,14 @@ li a:hover {
 
 .container {
    display: flex;
+   background-color: #E5F8FF
+   
 
 
+}
+.button-arrow{
+   display: flex;
+  
 }
 
 .text-descraption {
@@ -136,13 +142,16 @@ li a:hover {
    color: rgba(0, 0, 0, 0.863);
    transition: 0.5s;
 }
+.product{
+   background-color: white;
+}
 
 .container-product {
    display: flex;
    justify-content: space-around;
    align-items: center;
    padding: 30px;
-
+  
 }
 
 .product1 {
@@ -287,8 +296,8 @@ li a:hover {
 
 .container-description {
    display: flex;
-   background-color: #FCFCFC;
-   height: 350px;
+   background-color: white;
+   height: 450px;
     font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: none;
   font-weight: lighter;
@@ -309,8 +318,22 @@ li a:hover {
    flex-direction: column;
 
 }
+.button-buynow{
+   width: 150px;
+   height: 40px;
+   border-radius: 15px;
+   background-color: black;
+   color: white;
+   border: none;
+
+}
+.button-buynow:hover{
+   background-color: rgba(0, 0, 0, 0.463);
+   color: black;
+
+}
 footer{
-   background-color:#000000;
+   background-color:#000000dd;
    color: white;
    padding: 30px;
 }
