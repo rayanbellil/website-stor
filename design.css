@@ -287,7 +287,7 @@ li a:hover {
 
 .container-description {
    display: flex;
-   background-color: #FBFBFB;
+   background-color: #FCFCFC;
    height: 350px;
     font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: none;
@@ -308,4 +308,55 @@ li a:hover {
    display: flex;
    flex-direction: column;
 
+}
+footer{
+   background-color:#000000;
+   color: white;
+   padding: 30px;
+}
+.image-playstor{
+   width: 150px;
+   height: 50px;
+}
+.image-app-stor{
+   
+    width: 150px;
+   height: 80px;
+}
+.footer-stor{
+   display: flex;
+   align-items: center;
+}
+.footer-logo-dell{
+   width: 400px;
+   height: 80px;
+
+}
+.footer-container-logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container-footer{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+#footer-span{
+    color: #808080;
+}
+.footer-line{
+   width: 1200px;
+   height: 1px;
+   background-color: #f4f3f3;
+   display: flex;
+   gap: 10px;
+}
+.footer-last{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+ul{
+   list-style-type: none;
 }
